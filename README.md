@@ -22,7 +22,8 @@ Default yaml environment description are availbale in the git repository for [wi
 - `cd C:\yaml\file\location` or `cd yaml/file/location`
 - `mamba env create -f aiscimageio-napari-env.yml`
 - See [`env create` options documentations](https://docs.conda.io/projects/conda/en/latest/commands/env/create.html)
-Environments are by default created in the installation folder under `envs`, e.g.  `C:\GBW_MyPrograms\mambaforge\envs\`
+  
+**_NOTE:_** Environments are by default created in the installation folder in the `envs` subfolder, e.g.  `C:\GBW_MyPrograms\mambaforge\envs\`
 ### List the environments
 - Start a command prompt (Search> `cmd`) or a terminal
 - Run the command `mamba env list`
