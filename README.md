@@ -52,6 +52,6 @@ mamba activate napari-aicsimageio
 - `aiscimageio-napari-env.yml`: the [Napari](https://napari.org) image viewer with the [aiscimageio](https://allencellmodeling.github.io/aicsimageio/) to open different microscopy file format
 - `cellpose-gpu-napari-clesperanto.yml`: [cellpose](https://github.com/mouseland/cellpose)/[omnipose](https://omnipose.readthedocs.io/) with the [Napari](https://napari.org)  image viewer with the [aiscimageio](https://allencellmodeling.github.io/aicsimageio/) 
 - `pycudadecon-napari-env.yml` : the [Napari](https://napari.org) image viewer with the [pycudadecon](https://github.com/tlambert03/pycudadecon) library to perform Richardson Lucy Deconvolution on GPU
-- `stardist-cuda-env.yml` : the [Napari](https://napari.org) image viewer with [StarDist](https://github.com/stardist/stardist) - Object Detection with Star-convex Shapes 
+- `stardist-cuda-env.yml` :  [StarDist](https://github.com/stardist/stardist) - Object Detection with Star-convex Shapes on GPU using CUDA
   
 for [Windows](https://github.com/vib-bic-code/conda_environments/tree/main/windows) and [Linux](https://github.com/vib-bic-code/conda_environments/tree/main/linux)
