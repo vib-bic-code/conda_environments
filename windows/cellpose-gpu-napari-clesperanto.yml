@@ -1,0 +1,30 @@
+# Install cellpose/omnipose with GUI, napari, aiscimageio
+# fix the libxml2 version due to a issue on aiscimageio-napari, see https://github.com/AllenCellModeling/napari-aicsimageio/issues/76
+name: cellpose-omnipose-gpu2
+channels:
+  - pytorch
+  - nvidia
+  - conda-forge
+dependencies:
+  - python==3.11.4
+  - pytorch-cuda=11.7
+  - pytorch
+  - mahotas=1.4.13
+  - scikit-image
+  - napari==0.4.18
+  - pyclesperanto-prototype
+  - napari-aicsimageio==0.7.2
+  - napari-czifile2==0.2.7
+  - libxml2=2.10.4
+  - bioformats_jar
+  - pandas
+  - seaborn
+  - natsort
+  - stackview
+  - pip
+  - pip:
+    - cellpose==2.2.1
+    - omnipose==0.4.4
+    - cellpose[gui]
+    - fsspec>=2022.7.1
+    - openpyxl 
