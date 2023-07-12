@@ -29,10 +29,9 @@ Default yaml environment description are availbale in the git repository for [wi
 mamba env list
 # conda environments:
 #
-                         C:\GBW_MyPrograms\Miniconda
 base                     C:\GBW_MyPrograms\mambaforge
-cellpose-omnipose-gpu     C:\GBW_MyPrograms\mambaforge\envs\cellpose-omnipose-gpu
-cellpose-omnipose-gpu2     C:\GBW_MyPrograms\mambaforge\envs\cellpose-omnipose-gpu2
+cellpose-omnipose-gpu    C:\GBW_MyPrograms\mambaforge\envs\cellpose-omnipose-gpu
+cellpose-omnipose-gpu2   C:\GBW_MyPrograms\mambaforge\envs\cellpose-omnipose-gpu2
 devbio-napari            C:\GBW_MyPrograms\mambaforge\envs\devbio-napari
 napari-aicsimageio       C:\GBW_MyPrograms\mambaforge\envs\napari-aicsimageio
 pycudadecon-napari       C:\GBW_MyPrograms\mambaforge\envs\pycudadecon-napari
@@ -49,5 +48,9 @@ mamba activate napari-aicsimageio
 **_NOTE:_** By default, if an environement is already activated, the previous one will be replaced by the new one.
 
 ## Bio Image Analysis mamba/conda environments:
-- [Windows](https://github.com/vib-bic-code/conda_environments/tree/main/windows)
-- [Linux](https://github.com/vib-bic-code/conda_environments/tree/main/linux)
+- `aiscimageio-napari-env.yml`: the [Napari](https://napari.org) image viewer with the [aiscimageio](https://allencellmodeling.github.io/aicsimageio/) to open different microscopy file format
+- `cellpose-gpu-napari-clesperanto.yml`: [cellpose](https://github.com/mouseland/cellpose)/[omnipose](https://omnipose.readthedocs.io/) with the [Napari](https://napari.org)  image viewer with the [aiscimageio](https://allencellmodeling.github.io/aicsimageio/) 
+- `pycudadecon-napari-env.yml` : the [Napari](https://napari.org) image viewer with the [pycudadecon](https://github.com/tlambert03/pycudadecon) library to perform Richardson Lucy Deconvolution on GPU
+- `stardist-cuda-env.yml` : the [Napari](https://napari.org) image viewer with [StarDist](https://github.com/stardist/stardist) - Object Detection with Star-convex Shapes 
+  
+for [Windows](https://github.com/vib-bic-code/conda_environments/tree/main/windows) and [Linux](https://github.com/vib-bic-code/conda_environments/tree/main/linux)
