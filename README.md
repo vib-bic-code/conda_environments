@@ -31,7 +31,6 @@ mamba env list
 #
 base                     C:\GBW_MyPrograms\mambaforge
 cellpose-omnipose-gpu    C:\GBW_MyPrograms\mambaforge\envs\cellpose-omnipose-gpu
-cellpose-omnipose-gpu2   C:\GBW_MyPrograms\mambaforge\envs\cellpose-omnipose-gpu2
 devbio-napari            C:\GBW_MyPrograms\mambaforge\envs\devbio-napari
 napari-aicsimageio       C:\GBW_MyPrograms\mambaforge\envs\napari-aicsimageio
 pycudadecon-napari       C:\GBW_MyPrograms\mambaforge\envs\pycudadecon-napari
