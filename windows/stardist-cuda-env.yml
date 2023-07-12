@@ -6,17 +6,16 @@
 #from stardist.models import StarDist2D
 #StarDist2D.from_pretrained()
 #Ref : https://skeptric.com/tensorflow-conda/
-name: stardist
+name: csbdeep
 channels:
-  - anaconda
   - conda-forge
   - defaults
 dependencies:
   - python=3.10
-  - cudatoolkit=11.2.2
-  - cudnn=8.1.0.77
+  - cudatoolkit=11.2
+  - cudnn=8.1.0
+  - jupyter
   - pip
   - pip:
-      - tensorflow==2.11.0
-      - stardist
-prefix: stardist
+    - tensorflow<2.11
+    - stardist
