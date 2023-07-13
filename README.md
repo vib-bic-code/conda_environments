@@ -55,3 +55,26 @@ mamba activate napari-aicsimageio
 - `stardist-cuda-env.yml` :  [StarDist](https://github.com/stardist/stardist) - Object Detection with Star-convex Shapes on GPU using CUDA
   
 for [Windows](https://github.com/vib-bic-code/conda_environments/tree/main/windows) and [<abbr>VSC</abbr> Linux](https://github.com/vib-bic-code/conda_environments/tree/main/vsc-linux)
+
+## Make the environment availbale for a jupyter notebook
+
+###  On the VSC-Linux
+
+#### Activate the environment
+```bash
+conda activate my_env
+```
+Where `my_env` in the name of the conda environment
+
+#### Install ipkernel
+```bash
+conda install ipykernel
+```
+
+#### Make the environment available on jupyter notebook
+```bash
+python -m ipykernel install  --prefix=${VSC_HOME}/.local/ --name 'my_env_name'
+```
+Where `my_env_name` in the name under which it will appear from the list of availbale kernel
+![image](https://github.com/vib-bic-code/conda_environments/assets/1775952/09aa118f-ccba-4265-9dc9-894a355a8296)
+
