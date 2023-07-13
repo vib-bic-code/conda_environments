@@ -78,3 +78,6 @@ python -m ipykernel install  --prefix=${VSC_HOME}/.local/ --name 'my_env_name'
 Where `my_env_name` in the name under which it will appear from the list of availbale kernel
 ![image](https://github.com/vib-bic-code/conda_environments/assets/1775952/09aa118f-ccba-4265-9dc9-894a355a8296)
 
+It will store the kernel configuration in `${VSC_HOME}/.local/share/jupyter/kernels/my_env_name/`, the configuration of the kernel is detailed in the file `kernel.json`
+
+
