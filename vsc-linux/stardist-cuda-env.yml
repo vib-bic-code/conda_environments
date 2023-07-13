@@ -1,0 +1,17 @@
+#To test if CUDA well installed with tensorflow
+#python -c "import tensorflow as tf; print(tf.config.list_physical_devices('GPU'))"
+#Test stardist installation
+#python -c "from stardist.models import StarDist2D;StarDist2D.from_pretrained()"
+#StarDist2D.from_pretrained()
+name: stardist
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.10
+  - tensorflow-gpu
+  - keras
+  - jupyter
+  - pip
+  - pip:
+    - stardist
