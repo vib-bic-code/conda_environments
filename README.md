@@ -54,4 +54,4 @@ mamba activate napari-aicsimageio
 - `pycudadecon-napari-env.yml` : the [Napari](https://napari.org) image viewer with the [pycudadecon](https://github.com/tlambert03/pycudadecon) library to perform Richardson Lucy Deconvolution on GPU
 - `stardist-cuda-env.yml` :  [StarDist](https://github.com/stardist/stardist) - Object Detection with Star-convex Shapes on GPU using CUDA
   
-for [Windows](https://github.com/vib-bic-code/conda_environments/tree/main/windows) and [Linux](https://github.com/vib-bic-code/conda_environments/tree/main/linux)
+for [Windows](https://github.com/vib-bic-code/conda_environments/tree/main/windows) and [<abbr>VSC</abbr> Linux](https://github.com/vib-bic-code/conda_environments/tree/main/vsc-linux)
