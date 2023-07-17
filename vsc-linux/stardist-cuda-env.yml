@@ -3,6 +3,9 @@
 #Test stardist installation
 #python -c "from stardist.models import StarDist2D;StarDist2D.from_pretrained()"
 #StarDist2D.from_pretrained()
+#
+#On the VSC, you may have to copy/link the library file libdevice.10.bc to the current path where the code is run, e.g.:
+#cp /data/leuven/xxx/vscxxxxx/miniconda3/envs/csbdeep3/lib/libdevice.10.bc /data/leuven/xxx/vscxxxxx/
 name: stardist
 channels:
   - conda-forge
