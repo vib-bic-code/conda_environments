@@ -1,0 +1,14 @@
+#This use a specific version of libxml2 which otherwise fail to install aiscimageio with napari
+# see https://github.com/AllenCellModeling/napari-aicsimageio/issues/76
+name: devbio-aiscimageio-napari
+channels:
+  - pytorch
+  - nvidia
+  - conda-forge
+dependencies:
+  - python==3.11.4
+  - napari==0.4.18
+  - devbio-napari
+  - pytorch
+  - napari-aicsimageio==0.7.2
+  - libxml2=2.10.4
