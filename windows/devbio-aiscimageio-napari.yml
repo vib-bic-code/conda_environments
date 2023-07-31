@@ -11,4 +11,7 @@ dependencies:
   - devbio-napari
   - pytorch
   - napari-aicsimageio==0.7.2
-  - libxml2=2.10.4
+  - libxml2=2.10.4  
+  - pip
+  - pip:
+    - xmlschema
