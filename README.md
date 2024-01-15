@@ -80,4 +80,18 @@ Where `my_env_name` in the name under which it will appear from the list of avai
 
 It will store the kernel configuration in `${VSC_HOME}/.local/share/jupyter/kernels/my_env_name/`, the configuration of the kernel is detailed in the file `kernel.json`
 
+### Make the environement available and run it on a jupyter notebook on windows
+```bash
+conda install ipykernel
+conda install jupyter
+python -m ipykernel install --user --name myenv --display-name "Python (myenv)"
+```
+```bash
+cd D:
+cd D:\location\jupyter_notebook
+```
+```bash
+jupyter notebook
+```
+
 
