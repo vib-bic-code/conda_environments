@@ -23,7 +23,7 @@ dependencies:
   - stackview
   - pip
   - pip:
-    - cellpose==2.2.1
+    - cellpose==2.2.2
     - omnipose==0.4.4
     - cellpose[gui]
     - fsspec>=2022.7.1
