@@ -53,6 +53,7 @@ dependencies:
     - fsspec>=2022.7.1
     - openpyxl 
     - aicspylibczi
+    - napari-animation
 ```
 3. Create the new conda environement
 ```bash
