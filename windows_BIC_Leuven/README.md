@@ -66,13 +66,18 @@ pip install git+https://github.com/mouseland/cellpose.git
 5. Create a `.bat` shorcut to run cellpose from a shorcut:
     1. cellpose GUI 3D:
 ```bash
-call "C:\GBW_MyPrograms\miniforge3\Scripts\activate.bat" "C:\GBW_MyPrograms\miniforge3\envs\cellpose-aiscimageio-napari-gpu"
-C:\GBW_MyPrograms\miniforge3\envs\cellpose-aiscimageio-napari-gpu\python.exe -m cellpose --Zstack
+call "C:\Users\user_micro\miniforge3\Scripts\activate.bat" "C:\Users\user_micro\miniforge3\envs\cellpose-aiscimageio-napari-gpu"
+C:\Users\user_micro\miniforge3\envs\cellpose-aiscimageio-napari-gpu\python.exe -m cellpose --Zstack
 ```
     ii. cellpose GUI 2D:
 ```bash
-call "C:\GBW_MyPrograms\miniforge3\Scripts\activate.bat" "C:\GBW_MyPrograms\miniforge3\envs\cellpose-aiscimageio-napari-gpu"
-C:\GBW_MyPrograms\miniforge3\envs\cellpose-aiscimageio-napari-gpu\python.exe -m cellpose
+call "C:\Users\user_micro\miniforge3\Scripts\activate.bat" "C:\Users\user_micro\miniforge3\envs\cellpose-aiscimageio-napari-gpu"
+C:\Users\user_micro\miniforge3\envs\cellpose-aiscimageio-napari-gpu\python.exe -m cellpose
 ```
+   3. napari
+   ```bash
+call "C:\Users\user_micro\miniforge3\Scripts\activate.bat" "C:\Users\user_micro\miniforge3\envs\cellpose-aiscimageio-napari-gpu"
+C:\Users\user_micro\miniforge3\envs\cellpose-aiscimageio-napari-gpu\python.exe -m napari
+    ``` 
 save them as `cellpose3d.bat` and `cellpose2d.bat` in `C:\GBW_MyPrograms\`
 
