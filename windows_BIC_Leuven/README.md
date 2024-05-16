@@ -8,13 +8,13 @@
    1. Use all default options
    2. Change the permission (`right click > Properties >Security > Select "Users (GBW---)` , select `Edit` and check on `Modify`
 
-## Install git:
+## Install git
 1. Download [git for windows](https://git-scm.com/downloads)
 2. Copy the installer to `C:\GBW_MyDownloads`
 3. Install it to `C:\GBW_MyPrograms\git`
   1. Use all default options
 
-## Install cellpose 3:
+## Install cellpose 3
 1. Create a text file named cellpose-aiscimageio-napari-gpu-env.yml:
 2. Fill it with the following:
 ```yml
@@ -81,4 +81,25 @@ call "C:\GBW_MyPrograms\miniforge3\Scripts\activate.bat" "C:\GBW_MyPrograms\mini
 C:\GBW_MyPrograms\miniforge3\envs\cellpose-aiscimageio-napari-gpu\python.exe -m napari
 ``` 
 save them as `cellpose3d.bat`, `cellpose2d.bat` and  `napari.bat` in `C:\GBW_MyPrograms\`
+
+## Install Napari + Aicsimageio
+1. Create a new conda environement `napari`
+```bash
+conda create -n napari python=3.11.4
+conda activate napari
+conda install -c conda-forge napari pyqt
+conda install aicsimageio
+```
+2. Test the new environement
+```bash
+conda activate napari
+python -m napari
+```
+3. Create a launcher and a shortcut:
+Create a `napari.bat` file and edit it to add:
+```
+call "C:\GBW_MyPrograms\miniforge3\Script\activate.bat" "C:\Users\uxxxxxxx\.conda\envs\napari"
+C:\Users\uxxxxxxx\.conda\envs\napari\python.exe -m napari
+```
+Save it into `C:\GBW_MyPrograms\`, create a shortcut (right click, shortcut) and move it to the desktop
 
