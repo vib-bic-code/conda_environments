@@ -1,0 +1,7 @@
+conda create -n redlionfish python=3.9
+conda activate redlionfish
+
+pip install "napari[all]"
+conda install redlionfish -c conda-forge
+
+TODO: add napari-aicsimageio

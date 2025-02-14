@@ -1,0 +1,8 @@
+conda create -n pycudadecon python=3.9
+conda activate pycudadecon
+
+pip install "napari[all]"
+conda install cudatoolkit=11.8
+conda install -c conda-forge pycudadecon
+
+TODO: add napari-aicsimageio

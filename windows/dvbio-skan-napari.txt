@@ -1,0 +1,17 @@
+
+
+
+conda create --name devbio-skan-napari-env python=3.9 devbio-napari h5py skan -c conda-forge
+
+pip install napari-aicsimageio localthickness
+pip install napari[all]
+
+
+install Microsoft Visual C++ 14.0 or greater is required. Get it with "Microsoft C++ Build Tools"
+https://visualstudio.microsoft.com/vs/older-downloads/
+https://visualstudio.microsoft.com/visual-cpp-build-tools/
+
+#Not working in 3d
+pip install git+https://github.com/originlake/DSE-skeleton-pruning
+
+pip install kimimaro
